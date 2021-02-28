@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'Abolition Regular';
+    src: url('../fonts/abolition-regular-webfont.woff') format('woff');
+}
+
+header li {
+    font-weight: normal;
+    color: black;
+    background-color: floralwhite;
+    padding: 10px 15px;
+    margin: 10px 15px;
+}
+
+
+
