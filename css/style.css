@@ -10,6 +10,7 @@ font-family: 'Quicksand', sans-serif;
 
 header {
     padding-bottom: 2em;
+    background-color: #f5f2e9;
 }
 
 h1 {
@@ -45,11 +46,25 @@ main {
 
 nav ul li {
     background-color: #ede2e1;
+    margin-left: -2.45em;
     margin-bottom: 0.5em;
 }
 
 nav ul li a {
     display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .subjects {
@@ -86,21 +101,29 @@ footer h3 {
     nav ul li a {
         display: inline-block;
         padding-top: 1.25em;
-        padding-right: 2em;
+        padding-right: 2.5em;
         padding-bottom: 1.25em;
-        padding-left: 2em;
+        padding-left: 2.5em;
     }
 
     .paragraph-1 {
         float: left;
         text-align: left;
+        padding-left: 20px;
         padding-right: 10px;
+        margin-right: 10px;
     }
 
     .profile-picture {
         float: right;
-        padding-left: 10px;
+        width: 40%;
+        padding-left: 15px;
+        margin-top: 3em;
         margin-bottom: 1.25em;
+    }
+
+    nav ul li {
+        display: inline-block;
     }
 
     .subjects {
