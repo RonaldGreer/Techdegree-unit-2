@@ -98,6 +98,23 @@ footer h3 {
     margin-bottom: 1.75em;
 }
 
+.footer-name {
+    position: relative;
+    bottom: -15px;
+    left: -130px;
+}
+
+.footer-link {
+    position: relative;
+    bottom: 18px;
+    right: -120px;
+}
+
+.email-border {
+    padding-bottom: 2em;
+    border-bottom: 2px dashed #ede2e1
+}
+
 .shortcut {
     display: block;
 }
@@ -148,6 +165,13 @@ footer h3 {
     footer {
         width: 100%;
     }
+    
+    .footer-name {
+        position: relative;
+        bottom: -53px;
+        left: -315px;
+    }
+
 
     .shortcut {
         display: none;
