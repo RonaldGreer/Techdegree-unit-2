@@ -179,6 +179,21 @@ footer h3 {
     
     .nav-2 {
         display: block;
+        float: right;
+        margin-right: 20px;
+    }
+
+    .flexbox-container {
+        display: flex;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subjects {
+        flex: 1;
     }
 }
 
