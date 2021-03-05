@@ -98,10 +98,12 @@ footer h3 {
     margin-bottom: 1.75em;
 }
 
+/*@Claire T recomended changing left values on slack(103-107)*/
+
 .footer-name {
     position: relative;
     bottom: -15px;
-    left: -130px;
+    left: -120px;
 }
 
 .footer-link {
@@ -165,11 +167,13 @@ footer h3 {
     footer {
         width: 100%;
     }
+
+    /*@Claire T suggested tweaking my footer values on slack*/
     
     .footer-name {
         position: relative;
         bottom: -68px;
-        left: -375px;
+        left: -345px;
     }
 
 
@@ -236,9 +240,11 @@ footer h3 {
         display: block;
     }
 
+    /*@Claire T suggested changing margin-right values to avoid errors in desktop view on slack*/
+
     .name {
         float: left;
         margin-left: 15px;
-        margin-right: 175px;
+        margin-right: 150px;
     }
 }
