@@ -183,17 +183,16 @@ footer h3 {
         margin-right: 20px;
     }
 
+    /*@Brian Jensen (he/him) helped with errors i faced with flexbox commands on slack(lines 188-196)*/
+
     .flexbox-container {
         display: flex;
-    }
-
-    .flex-container {
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
     }
 
     .subjects {
-        flex: 1;
+        margin: 10px;
+        flex-basis: calc(50% - 20px);
     }
 }
 
@@ -218,10 +217,10 @@ footer h3 {
         margin-bottom: 1.25em;
     }
 
+    /*@Brian Jensen (he/him) helped with errors i faced with flexbox commands on slack(lines 222-224)*/
+
     .subjects {
-        float: left;
-        padding: 10px;
-        margin-bottom: 5px;
+        flex-basis: calc(33.333% - 20px);
     }
 
     footer {
