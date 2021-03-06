@@ -116,7 +116,7 @@ footer h3 {
 
 */
 
-/*Project reviewer suggested adding this exact flexbox command*/
+/*Project reviewer suggested adding this exact flexbox command and commenting out portions of my footer code that dealt with negative margins*/
 
 .bottom-footer {
     display: flex;
