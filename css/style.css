@@ -87,7 +87,7 @@ footer {
     margin-top: 3em;
 }
 
-/*@Sarah (she/her), on slack, suggested adding a clearfix rule to prevent my footer from floating(see lines 15 and 30 on index.html*/
+/*@Sarah (she/her), on slack, suggested adding a clearfix rule to prevent my footer from floating(see lines 17 and 34 on index.html*/
 .clearfix::after {
     content: "";
     display: table;
@@ -187,7 +187,7 @@ footer h3 {
         margin-right: 20px;
     }
 
-    /*@Brian Jensen (he/him) helped with errors i faced with flexbox commands on slack(lines 188-196)*/
+    /*@Brian Jensen (he/him) helped with errors i faced with flexbox commands on slack(lines 188-196 and 197-200)*/
 
     .flexbox-container {
         display: flex;
@@ -222,7 +222,7 @@ footer h3 {
         margin-bottom: 1.25em;
     }
 
-    /*@Brian Jensen (he/him) helped with errors i faced with flexbox commands on slack(lines 222-224)*/
+    /*@Brian Jensen (he/him) helped with errors i faced with flexbox commands on slack(lines 227-229)*/
 
     .subjects {
         flex-basis: calc(33.333% - 20px);
