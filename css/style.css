@@ -116,15 +116,17 @@ footer h3 {
 
 */
 
-/*Project reviewer suggested adding this exact flexbox command and commenting out portions of my footer code that dealt with negative margins*/
+/*Project reviewer suggested adding this flexbox command: 
+.bottom-footer {
+   display: flex;
+   justify-content: space-between;
+}
+and commenting out portions of my footer code that dealt with negative margins. I modified said command after advice from the slack community to the one you can see below(lines 126-130) credit: @Claire T*/
 
 .bottom-footer {
     display: flex;
-    justify-content: space-between;
-}
-
-.footer-name {
-    margin-top: 40px;
+    justify-content: space-around;
+    align-items:center;
 }
 
 .email-border {
